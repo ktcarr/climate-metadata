@@ -1,5 +1,5 @@
 # climate-metadata
-Metadata and download scripts for ocean/atmosphere reanalyses and observations. Note: markdown tables converted from [DataList.xlsx](https://docs.google.com/spreadsheets/d/1wIDB3dqRYOLwdLhRBvtFWuBlwpajNRG2/edit#gid=2108251210) using a [table-to-markdown converter](https://tabletomarkdown.com/convert-spreadsheet-to-markdown/). 
+Metadata and download scripts for ocean/atmosphere reanalyses and observations. Note: markdown tables converted from [DataList.xlsx](https://docs.google.com/spreadsheets/d/1wIDB3dqRYOLwdLhRBvtFWuBlwpajNRG2/edit#gid=2108251210) using a [table-to-markdown converter](https://tabletomarkdown.com/convert-spreadsheet-to-markdown/). Updated markdown tables can be formatted [here](https://tabletomarkdown.com/format-markdown-table/). 
 
 # Atmosphere
 | Product and version | Spatial Resolution | Temporal Resolution       | Period Available |
@@ -8,7 +8,7 @@ Metadata and download scripts for ocean/atmosphere reanalyses and observations. 
 | 20CR v3             | 1º x 1º            | Sub-daily, daily, monthly | 1836-2015        |
 | ERA-20C             | 1º x 1º            | Sub-daily, daily, monthly | 1900-2010        |
 | ERA-Interim         | 0.75º x 0.75º      | Sub-daily, daily, monthly | 1979-2019        |
-| ERA5                | 1º x 1º            | Sub-daily                 | 1979-present     |
+| [ERA5](#era5)       | 1º x 1º            | Sub-daily                 | 1979-present     |
 | JRA-55              | 1.25º x 1.25º      | Sub-daily, monthly        | 1958-present     |
 | MERRA               | 0.5º x 0.667º      | sub-daily, monthly        | 1979-2016        |
 | NNR 1               | 2.5º x 2.5º        | 4-times daily, monthly    | 1948-present     |
@@ -89,3 +89,7 @@ Metadata and download scripts for ocean/atmosphere reanalyses and observations. 
 | ORAS4                | 1º x 1º            | Monthly             | 1958-2017            |
 | ORAS5                | 1º x 1º            | Monthly             | 1979-2018            |
 | SODA 2.2.4           | 0.25º x 0.4º       | Monthly             | 1871-2008            |
+
+
+# Detailed metadata
+## ERA5
