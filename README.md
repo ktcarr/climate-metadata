@@ -197,7 +197,7 @@ Metadata and download scripts for ocean/atmosphere reanalyses and observations. 
 | **URL 1**                   |                                                                                                                                                      |
 | **URL 2**                   |                                                                                                                                                      |
 | **User / point of contact** | Mariya                                                                                                                                               |
-| **Download script**         |
+| **Download script**         | [scripts/era5](scripts/era5)
 
 
 
