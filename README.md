@@ -1,5 +1,9 @@
 # climate-metadata
-Metadata and download scripts for ocean/atmosphere reanalyses and observations. Note: markdown tables converted from [DataList.xlsx](https://docs.google.com/spreadsheets/d/1wIDB3dqRYOLwdLhRBvtFWuBlwpajNRG2/edit#gid=2108251210) using a [table-to-markdown converter](https://tabletomarkdown.com/convert-spreadsheet-to-markdown/). Updated markdown tables can be formatted [here](https://tabletomarkdown.com/format-markdown-table/). 
+This repository contains metadata and download scripts for ocean/atmosphere reanalyses and observations.  
+
+The following markdown file contains several ["summary" tables](#summary-tables) for comparison of basic information between datasets. These tables contain links to [more detailed information](#detailed-metadata) for each dataset. Download scripts for specific datasets are located in the [scripts](./scripts) folder.  
+
+Note: summary markdown tables converted from [DataList.xlsx](https://docs.google.com/spreadsheets/d/1wIDB3dqRYOLwdLhRBvtFWuBlwpajNRG2/edit#gid=2108251210) using a [table-to-markdown converter](https://tabletomarkdown.com/convert-spreadsheet-to-markdown/). Tables with detailed information about each dataset were converted from spreadsheet format using [this site](https://tableconvert.com). Markdown tables can be "prettified" [here](https://tabletomarkdown.com/format-markdown-table/). 
 
 
 # Summary tables
