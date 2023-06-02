@@ -5,7 +5,7 @@ This repository contains metadata and download scripts for ocean/atmosphere rean
 
 # Summary tables
 
-# Atmospheric
+## Atmospheric
 
 | Product and version         | Spatial Resolution   | Temporal Resolution       | Period Available   |
 |:----------------------------|:---------------------|:--------------------------|:-------------------|
@@ -23,7 +23,7 @@ This repository contains metadata and download scripts for ocean/atmosphere rean
 
 
 
-# Wind
+## Wind
 
 | Product and version                                     | Spatial Resolution   | Temporal Resolution    | Period Available   |
 |:--------------------------------------------------------|:---------------------|:-----------------------|:-------------------|
@@ -34,7 +34,7 @@ This repository contains metadata and download scripts for ocean/atmosphere rean
 
 
 
-# Precipitation
+## Precipitation
 
 | Product and version           | Spatial Resolution         | Temporal Resolution       | Period Available   |
 |:------------------------------|:---------------------------|:--------------------------|:-------------------|
@@ -49,7 +49,7 @@ This repository contains metadata and download scripts for ocean/atmosphere rean
 
 
 
-# Surface Ocean
+## Surface Ocean
 
 | Product and version   | Spatial Resolution   | Temporal Resolution   | Period Available   |
 |:----------------------|:---------------------|:----------------------|:-------------------|
@@ -57,7 +57,7 @@ This repository contains metadata and download scripts for ocean/atmosphere rean
 
 
 
-# SSS
+## SSS
 
 | Product and version   | Spatial Resolution   | Temporal Resolution       | Period Available   |
 |:----------------------|:---------------------|:--------------------------|:-------------------|
@@ -67,7 +67,7 @@ This repository contains metadata and download scripts for ocean/atmosphere rean
 
 
 
-# SSH
+## SSH
 
 | Product and version                                       | Spatial Resolution   | Temporal Resolution   | Period Available   |
 |:----------------------------------------------------------|:---------------------|:----------------------|:-------------------|
@@ -77,7 +77,7 @@ This repository contains metadata and download scripts for ocean/atmosphere rean
 
 
 
-# SST
+## SST
 
 | Product and version           | Spatial Resolution   | Temporal Resolution   | Period Available   |
 |:------------------------------|:---------------------|:----------------------|:-------------------|
@@ -91,7 +91,7 @@ This repository contains metadata and download scripts for ocean/atmosphere rean
 
 
 
-# Subsurface Ocean
+## Subsurface Ocean
 
 | Product and version                           | Spatial Resolution   | Temporal Resolution   | Period Available     |
 |:----------------------------------------------|:---------------------|:----------------------|:---------------------|
@@ -113,7 +113,7 @@ This repository contains metadata and download scripts for ocean/atmosphere rean
 
 
 
-# Climate Indices
+## Climate Indices
 
 | Product and version                 |   Spatial Resolution |   Temporal Resolution |   Period Available |
 |:------------------------------------|---------------------:|----------------------:|-------------------:|

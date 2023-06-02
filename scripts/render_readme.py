@@ -64,7 +64,7 @@ def print_category_table(data, category, cols_to_plot, file=None):
     prod_and_vers = [make_anchorlink(x) for x in prod_and_vers]
     data_["Product and version"] = prod_and_vers
     
-    print(f"# {category}\n", file=file)
+    print(f"## {category}\n", file=file)
     print(data_.to_markdown(index=False), file=file)
 
     return
