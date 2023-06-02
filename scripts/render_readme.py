@@ -65,6 +65,9 @@ def print_item_metadata(item, file=None):
     ## Put variables in HTML list
     item_["Variables"] = csv_list_to_html(item_["Variables"])
 
+    ## Add item with hyperlink to scripts
+    item_["Download script"] = make_anchorlink(item_["Product and version"])
+
     ## Remove row name
     item_ = item_.rename("")
 

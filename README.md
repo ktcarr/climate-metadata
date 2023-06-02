@@ -140,6 +140,7 @@
 | **URL 1**                   | https://www.esrl.noaa.gov/psd/data/gridded/data.ncep.reanalysis.html |
 | **URL 2**                   | nan                                                                  |
 | **User / point of contact** | nan                                                                  |
+| **Download script**         | [NNR 1](#nnr-1)                                                      |
 ### NNR 2
 |                             |                                                                                              |
 |:----------------------------|:---------------------------------------------------------------------------------------------|
@@ -158,6 +159,7 @@
 | **URL 1**                   | https://www.cpc.ncep.noaa.gov/products/wesley/reanalysis2/                                   |
 | **URL 2**                   | nan                                                                                          |
 | **User / point of contact** | nan                                                                                          |
+| **Download script**         | [NNR 2](#nnr-2)                                                                              |
 ### MERRA
 |                             |                                                                                                        |
 |:----------------------------|:-------------------------------------------------------------------------------------------------------|
@@ -176,6 +178,7 @@
 | **URL 1**                   | https://gmao.gsfc.nasa.gov/reanalysis/MERRA/                                                           |
 | **URL 2**                   | nan                                                                                                    |
 | **User / point of contact** | nan                                                                                                    |
+| **Download script**         | [MERRA](#merra)                                                                                        |
 ### ERA-Interim
 |                             |                                                                                                                                                                                                                                            |
 |:----------------------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -194,6 +197,7 @@
 | **URL 1**                   | https://www.ecmwf.int/en/research/climate-reanalysis/era-interim                                                                                                                                                                           |
 | **URL 2**                   | nan                                                                                                                                                                                                                                        |
 | **User / point of contact** | nan                                                                                                                                                                                                                                        |
+| **Download script**         | [ERA-Interim](#era-interim)                                                                                                                                                                                                                |
 ### ERA-20C
 |                             |                                                                                                                                                                                                                                                              |
 |:----------------------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -212,6 +216,7 @@
 | **URL 1**                   | https://rda.ucar.edu/datasets/ds626.0/                                                                                                                                                                                                                       |
 | **URL 2**                   | nan                                                                                                                                                                                                                                                          |
 | **User / point of contact** | nan                                                                                                                                                                                                                                                          |
+| **Download script**         | [ERA-20C](#era-20c)                                                                                                                                                                                                                                          |
 ### ERA5
 |                             |                                                                                                                                                                                                          |
 |:----------------------------|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -230,6 +235,7 @@
 | **URL 1**                   | nan                                                                                                                                                                                                      |
 | **URL 2**                   | nan                                                                                                                                                                                                      |
 | **User / point of contact** | Mariya                                                                                                                                                                                                   |
+| **Download script**         | [ERA5](#era5)                                                                                                                                                                                            |
 ### 20CR v2
 |                             |                                                                                                                  |
 |:----------------------------|:-----------------------------------------------------------------------------------------------------------------|
@@ -248,6 +254,7 @@
 | **URL 1**                   | https://www.esrl.noaa.gov/psd/data/gridded/data.20thC_ReanV2.html                                                |
 | **URL 2**                   | nan                                                                                                              |
 | **User / point of contact** | nan                                                                                                              |
+| **Download script**         | [20CR v2](#20cr-v2)                                                                                              |
 ### 20CR v3
 |                             |                                                                                                                  |
 |:----------------------------|:-----------------------------------------------------------------------------------------------------------------|
@@ -266,6 +273,7 @@
 | **URL 1**                   | https://www.esrl.noaa.gov/psd/data/gridded/data.20thC_ReanV3.html                                                |
 | **URL 2**                   | nan                                                                                                              |
 | **User / point of contact** | nan                                                                                                              |
+| **Download script**         | [20CR v3](#20cr-v3)                                                                                              |
 ### JRA-55
 |                             |                                                                                              |
 |:----------------------------|:---------------------------------------------------------------------------------------------|
@@ -284,6 +292,7 @@
 | **URL 1**                   | https://jra.kishou.go.jp/JRA-55/index_en.html                                                |
 | **URL 2**                   | nan                                                                                          |
 | **User / point of contact** | nan                                                                                          |
+| **Download script**         | [JRA-55](#jra-55)                                                                            |
 ### OAFlux
 |                             |                                                                                                                                                     |
 |:----------------------------|:----------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -302,6 +311,7 @@
 | **URL 1**                   | http://oaflux.whoi.edu/description.html                                                                                                             |
 | **URL 2**                   | nan                                                                                                                                                 |
 | **User / point of contact** | nan                                                                                                                                                 |
+| **Download script**         | [OAFlux](#oaflux)                                                                                                                                   |
 ### TropFlux
 |                             |                                                                                                                                                                                                                                                       |
 |:----------------------------|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -320,6 +330,7 @@
 | **URL 1**                   | https://incois.gov.in/tropflux/overview.jsp                                                                                                                                                                                                           |
 | **URL 2**                   | nan                                                                                                                                                                                                                                                   |
 | **User / point of contact** | nan                                                                                                                                                                                                                                                   |
+| **Download script**         | [TropFlux](#tropflux)                                                                                                                                                                                                                                 |
 ### Quikscat
 |                             |                                                                          |
 |:----------------------------|:-------------------------------------------------------------------------|
@@ -338,6 +349,7 @@
 | **URL 1**                   | https://podaac.jpl.nasa.gov/highlights/GriddedClimateVariables_2012_0913 |
 | **URL 2**                   | nan                                                                      |
 | **User / point of contact** | nan                                                                      |
+| **Download script**         | [Quikscat](#quikscat)                                                    |
 ### IFREMER 
 |                             |                                                                             |
 |:----------------------------|:----------------------------------------------------------------------------|
@@ -356,24 +368,26 @@
 | **URL 1**                   | http://apdrc.soest.hawaii.edu/datadoc/ifremer_LOPS_blended_wind_6hourly.php |
 | **URL 2**                   | nan                                                                         |
 | **User / point of contact** | nan                                                                         |
+| **Download script**         | [IFREMER ](#ifremer)                                                        |
 ### CCMP Wind Vector Analysis
-|                             |                                            |
-|:----------------------------|:-------------------------------------------|
-| **Category**                | Wind                                       |
-| **Product and version**     | CCMP Wind Vector Analysis                  |
-| **Institution**             | NASA                                       |
-| **Product Type**            | Satellite, moored buoy, model; synthesized |
-| **Spatial Resolution**      | 0.25º x 0.25º                              |
-| **Period Available**        | 1987-present                               |
-| **Temporal Resolution**     | sub-daily                                  |
-| **Variables**               | wind                                       |
-| **Reference**               | Atlas et al. (2011); Hoffman et al. (2003) |
-| **On CLIDEX?**              | nan                                        |
-| **Data Storage Location**   | nan                                        |
-| **Downloaded Variables**    | nan                                        |
-| **URL 1**                   | http://www.remss.com/measurements/ccmp/    |
-| **URL 2**                   | nan                                        |
-| **User / point of contact** | nan                                        |
+|                             |                                                         |
+|:----------------------------|:--------------------------------------------------------|
+| **Category**                | Wind                                                    |
+| **Product and version**     | CCMP Wind Vector Analysis                               |
+| **Institution**             | NASA                                                    |
+| **Product Type**            | Satellite, moored buoy, model; synthesized              |
+| **Spatial Resolution**      | 0.25º x 0.25º                                           |
+| **Period Available**        | 1987-present                                            |
+| **Temporal Resolution**     | sub-daily                                               |
+| **Variables**               | wind                                                    |
+| **Reference**               | Atlas et al. (2011); Hoffman et al. (2003)              |
+| **On CLIDEX?**              | nan                                                     |
+| **Data Storage Location**   | nan                                                     |
+| **Downloaded Variables**    | nan                                                     |
+| **URL 1**                   | http://www.remss.com/measurements/ccmp/                 |
+| **URL 2**                   | nan                                                     |
+| **User / point of contact** | nan                                                     |
+| **Download script**         | [CCMP Wind Vector Analysis](#ccmp-wind-vector-analysis) |
 ### WASWind
 |                             |                                                           |
 |:----------------------------|:----------------------------------------------------------|
@@ -392,6 +406,7 @@
 | **URL 1**                   | https://rda.ucar.edu/datasets/ds232.3/                    |
 | **URL 2**                   | https://www.riam.kyushu-u.ac.jp/oed/tokinaga/waswind.html |
 | **User / point of contact** | nan                                                       |
+| **Download script**         | [WASWind](#waswind)                                       |
 ### GPCP v2.3
 |                             |                                                           |
 |:----------------------------|:----------------------------------------------------------|
@@ -410,6 +425,7 @@
 | **URL 1**                   | https://www.esrl.noaa.gov/psd/data/gridded/data.gpcp.html |
 | **URL 2**                   | nan                                                       |
 | **User / point of contact** | nan                                                       |
+| **Download script**         | [GPCP v2.3](#gpcp-v2.3)                                   |
 ### TRMM/GPM
 |                             |                                                 |
 |:----------------------------|:------------------------------------------------|
@@ -428,6 +444,7 @@
 | **URL 1**                   | https://pmm.nasa.gov/data-access/downloads/trmm |
 | **URL 2**                   | nan                                             |
 | **User / point of contact** | nan                                             |
+| **Download script**         | [TRMM/GPM](#trmm/gpm)                           |
 ### GPM IMERG
 |                             |                                                |
 |:----------------------------|:-----------------------------------------------|
@@ -446,6 +463,7 @@
 | **URL 1**                   | https://pmm.nasa.gov/data-access/downloads/gpm |
 | **URL 2**                   | nan                                            |
 | **User / point of contact** | nan                                            |
+| **Download script**         | [GPM IMERG](#gpm-imerg)                        |
 ### CloudSat
 |                             |                                                      |
 |:----------------------------|:-----------------------------------------------------|
@@ -464,6 +482,7 @@
 | **URL 1**                   | https://cloudsat.atmos.colostate.edu/data            |
 | **URL 2**                   | nan                                                  |
 | **User / point of contact** | nan                                                  |
+| **Download script**         | [CloudSat](#cloudsat)                                |
 ### CMORPH
 |                             |                                                                         |
 |:----------------------------|:------------------------------------------------------------------------|
@@ -482,6 +501,7 @@
 | **URL 1**                   | https://www.cpc.ncep.noaa.gov/products/janowiak/cmorph_description.html |
 | **URL 2**                   | nan                                                                     |
 | **User / point of contact** | nan                                                                     |
+| **Download script**         | [CMORPH](#cmorph)                                                       |
 ### Aphrodite
 |                             |                                                       |
 |:----------------------------|:------------------------------------------------------|
@@ -500,6 +520,7 @@
 | **URL 1**                   | https://www.chikyu.ac.jp/precip/english/products.html |
 | **URL 2**                   | nan                                                   |
 | **User / point of contact** | nan                                                   |
+| **Download script**         | [Aphrodite](#aphrodite)                               |
 ### CMAP
 |                             |                                                                           |
 |:----------------------------|:--------------------------------------------------------------------------|
@@ -518,6 +539,7 @@
 | **URL 1**                   | https://www.cpc.ncep.noaa.gov/products/global_precip/html/wpage.cmap.html |
 | **URL 2**                   | nan                                                                       |
 | **User / point of contact** | nan                                                                       |
+| **Download script**         | [CMAP](#cmap)                                                             |
 ### PERSIANN-CDR
 |                             |                                                                |
 |:----------------------------|:---------------------------------------------------------------|
@@ -536,6 +558,7 @@
 | **URL 1**                   | https://data.nodc.noaa.gov/cgi-bin/iso?id=gov.noaa.ncdc:C00854 |
 | **URL 2**                   | nan                                                            |
 | **User / point of contact** | nan                                                            |
+| **Download script**         | [PERSIANN-CDR](#persiann-cdr)                                  |
 ### OSCAR
 |                             |                                                           |
 |:----------------------------|:----------------------------------------------------------|
@@ -554,6 +577,7 @@
 | **URL 1**                   | https://podaac.jpl.nasa.gov/dataset/OSCAR_L4_OC_third-deg |
 | **URL 2**                   | nan                                                       |
 | **User / point of contact** | nan                                                       |
+| **Download script**         | [OSCAR](#oscar)                                           |
 ### Aquarius
 |                             |                                                                                                                             |
 |:----------------------------|:----------------------------------------------------------------------------------------------------------------------------|
@@ -572,6 +596,7 @@
 | **URL 1**                   | https://podaac-tools.jpl.nasa.gov/drive/login?dest=L2RyaXZlL2ZpbGVzL2FsbERhdGEvYXF1YXJpdXMvTDMvbWFwcGVkL1Y1L21vbnRobHkvU0NJ |
 | **URL 2**                   | nan                                                                                                                         |
 | **User / point of contact** | nan                                                                                                                         |
+| **Download script**         | [Aquarius](#aquarius)                                                                                                       |
 ### SMOS
 |                             |                                                                                        |
 |:----------------------------|:---------------------------------------------------------------------------------------|
@@ -590,6 +615,7 @@
 | **URL 1**                   | https://www.catds.fr/Products/Available-products-from-CEC-OS/CEC-Locean-L3-Debiased-v3 |
 | **URL 2**                   | nan                                                                                    |
 | **User / point of contact** | nan                                                                                    |
+| **Download script**         | [SMOS](#smos)                                                                          |
 ### SMAP
 |                             |                                                                             |
 |:----------------------------|:----------------------------------------------------------------------------|
@@ -608,6 +634,7 @@
 | **URL 1**                   | https://podaac.jpl.nasa.gov/dataset/SMAP_JPL_L3_SSS_CAP_8DAY-RUNNINGMEAN_V4 |
 | **URL 2**                   | nan                                                                         |
 | **User / point of contact** | nan                                                                         |
+| **Download script**         | [SMAP](#smap)                                                               |
 ### Global Ocean gridded SSH
 |                             |                                                                                                                                                        |
 |:----------------------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -626,6 +653,7 @@
 | **URL 1**                   | http://marine.copernicus.eu/services-portfolio/access-to-products/?option=com_csw&view=details&product_id=SEALEVEL_GLO_PHY_L4_REP_OBSERVATIONS_008_047 |
 | **URL 2**                   | nan                                                                                                                                                    |
 | **User / point of contact** | nan                                                                                                                                                    |
+| **Download script**         | [Global Ocean gridded SSH](#global-ocean-gridded-ssh)                                                                                                  |
 ### AVISO
 |                             |                                                                |
 |:----------------------------|:---------------------------------------------------------------|
@@ -644,6 +672,7 @@
 | **URL 1**                   | https://podaac.jpl.nasa.gov/dataset/AVISO_L4_DYN_TOPO_1DEG_1MO |
 | **URL 2**                   | nan                                                            |
 | **User / point of contact** | nan                                                            |
+| **Download script**         | [AVISO](#aviso)                                                |
 ### Reconstructed Sea Level v1
 |                             |                                                               |
 |:----------------------------|:--------------------------------------------------------------|
@@ -662,6 +691,7 @@
 | **URL 1**                   | https://podaac.jpl.nasa.gov/dataset/RECON_SEA_LEVEL_OST_L4_V1 |
 | **URL 2**                   | nan                                                           |
 | **User / point of contact** | nan                                                           |
+| **Download script**         | [Reconstructed Sea Level v1](#reconstructed-sea-level-v1)     |
 ### ERSSTv4
 |                             |                                                                                                                |
 |:----------------------------|:---------------------------------------------------------------------------------------------------------------|
@@ -680,6 +710,7 @@
 | **URL 1**                   | https://www.ncdc.noaa.gov/data-access/marineocean-data/extended-reconstructed-sea-surface-temperature-ersst-v4 |
 | **URL 2**                   | nan                                                                                                            |
 | **User / point of contact** | nan                                                                                                            |
+| **Download script**         | [ERSSTv4](#ersstv4)                                                                                            |
 ### ERSSTv5
 |                             |                                                           |
 |:----------------------------|:----------------------------------------------------------|
@@ -698,6 +729,7 @@
 | **URL 1**                   | https://psl.noaa.gov/data/gridded/data.noaa.ersst.v5.html |
 | **URL 2**                   | nan                                                       |
 | **User / point of contact** | Mariya                                                    |
+| **Download script**         | [ERSSTv5](#ersstv5)                                       |
 ### OISST v2
 |                             |                                                                            |
 |:----------------------------|:---------------------------------------------------------------------------|
@@ -716,6 +748,7 @@
 | **URL 1**                   | https://www.esrl.noaa.gov/psd/data/gridded/data.noaa.oisst.v2.highres.html |
 | **URL 2**                   | nan                                                                        |
 | **User / point of contact** | nan                                                                        |
+| **Download script**         | [OISST v2](#oisst-v2)                                                      |
 ### GISTEMP
 |                             |                                        |
 |:----------------------------|:---------------------------------------|
@@ -734,6 +767,7 @@
 | **URL 1**                   | https://data.giss.nasa.gov/gistemp/    |
 | **URL 2**                   | nan                                    |
 | **User / point of contact** | nan                                    |
+| **Download script**         | [GISTEMP](#gistemp)                    |
 ### MODIS/Aqua
 |                             |                                                              |
 |:----------------------------|:-------------------------------------------------------------|
@@ -752,6 +786,7 @@
 | **URL 1**                   | https://modis.gsfc.nasa.gov/data/dataprod/mod28.php          |
 | **URL 2**                   | nan                                                          |
 | **User / point of contact** | nan                                                          |
+| **Download script**         | [MODIS/Aqua](#modis/aqua)                                    |
 ### OSTIA SST
 |                             |                                                             |
 |:----------------------------|:------------------------------------------------------------|
@@ -770,6 +805,7 @@
 | **URL 1**                   | https://podaac.jpl.nasa.gov/dataset/OSTIA-UKMO-L4-GLOB-v2.0 |
 | **URL 2**                   | nan                                                         |
 | **User / point of contact** | nan                                                         |
+| **Download script**         | [OSTIA SST](#ostia-sst)                                     |
 ### HadISST v1.1
 |                             |                                              |
 |:----------------------------|:---------------------------------------------|
@@ -788,6 +824,7 @@
 | **URL 1**                   | https://www.metoffice.gov.uk/hadobs/hadisst/ |
 | **URL 2**                   | nan                                          |
 | **User / point of contact** | Mariya                                       |
+| **Download script**         | [HadISST v1.1](#hadisst-v1.1)                |
 ### ORAS4
 |                             |                                                                                                                      |
 |:----------------------------|:---------------------------------------------------------------------------------------------------------------------|
@@ -806,6 +843,7 @@
 | **URL 1**                   | http://apdrc.soest.hawaii.edu/datadoc/ecmwf_oras4.php                                                                |
 | **URL 2**                   | nan                                                                                                                  |
 | **User / point of contact** | nan                                                                                                                  |
+| **Download script**         | [ORAS4](#oras4)                                                                                                      |
 ### ORAS5
 |                             |                                                                                                                                   |
 |:----------------------------|:----------------------------------------------------------------------------------------------------------------------------------|
@@ -824,6 +862,7 @@
 | **URL 1**                   | http://apdrc.soest.hawaii.edu/datadoc/ecmwf_oras5_1x1.php                                                                         |
 | **URL 2**                   | nan                                                                                                                               |
 | **User / point of contact** | nan                                                                                                                               |
+| **Download script**         | [ORAS5](#oras5)                                                                                                                   |
 ### SODA 2.2.4
 |                             |                                                                                           |
 |:----------------------------|:------------------------------------------------------------------------------------------|
@@ -842,6 +881,7 @@
 | **URL 1**                   | https://coastwatch.pfeg.noaa.gov/erddap/info/hawaii_d90f_20ee_c4cb/index.html             |
 | **URL 2**                   | nan                                                                                       |
 | **User / point of contact** | nan                                                                                       |
+| **Download script**         | [SODA 2.2.4](#soda-2.2.4)                                                                 |
 ### GFDL-ECDA v3.1
 |                             |                                                                                                                                                                                                                         |
 |:----------------------------|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -860,6 +900,7 @@
 | **URL 1**                   | http://apdrc.soest.hawaii.edu/datadoc/gfdl.php                                                                                                                                                                          |
 | **URL 2**                   | nan                                                                                                                                                                                                                     |
 | **User / point of contact** | nan                                                                                                                                                                                                                     |
+| **Download script**         | [GFDL-ECDA v3.1](#gfdl-ecda-v3.1)                                                                                                                                                                                       |
 ### GODAS
 |                             |                                                                                                                                     |
 |:----------------------------|:------------------------------------------------------------------------------------------------------------------------------------|
@@ -878,6 +919,7 @@
 | **URL 1**                   | https://www.cpc.ncep.noaa.gov/products/GODAS/                                                                                       |
 | **URL 2**                   | nan                                                                                                                                 |
 | **User / point of contact** | nan                                                                                                                                 |
+| **Download script**         | [GODAS](#godas)                                                                                                                     |
 ### ECCO2
 |                             |                                                                                                                                                                                                                                                      |
 |:----------------------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -896,6 +938,7 @@
 | **URL 1**                   | http://ecco2.jpl.nasa.gov                                                                                                                                                                                                                            |
 | **URL 2**                   | nan                                                                                                                                                                                                                                                  |
 | **User / point of contact** | nan                                                                                                                                                                                                                                                  |
+| **Download script**         | [ECCO2](#ecco2)                                                                                                                                                                                                                                      |
 ### GLORYS2v1
 |                             |                                                                                                |
 |:----------------------------|:-----------------------------------------------------------------------------------------------|
@@ -914,6 +957,7 @@
 | **URL 1**                   | https://www.mercator-ocean.fr/en/science-publications/glorys/                                  |
 | **URL 2**                   | https://www.mercator-ocean.fr/en/science-publications/operational-systems/operational-systems/ |
 | **User / point of contact** | nan                                                                                            |
+| **Download script**         | [GLORYS2v1](#glorys2v1)                                                                        |
 ### EN4.1.1
 |                             |                                          |
 |:----------------------------|:-----------------------------------------|
@@ -932,6 +976,7 @@
 | **URL 1**                   | https://www.metoffice.gov.uk/hadobs/en4/ |
 | **URL 2**                   | nan                                      |
 | **User / point of contact** | nan                                      |
+| **Download script**         | [EN4.1.1](#en4.1.1)                      |
 ### IAP ocean temp & OHC
 |                             |                                                                                                                                   |
 |:----------------------------|:----------------------------------------------------------------------------------------------------------------------------------|
@@ -950,6 +995,7 @@
 | **URL 1**                   | https://climatedataguide.ucar.edu/climate-data/ocean-temperature-analysis-and-heat-content-estimate-institute-atmospheric-physics |
 | **URL 2**                   | http://159.226.119.60/cheng/                                                                                                      |
 | **User / point of contact** | nan                                                                                                                               |
+| **Download script**         | [IAP ocean temp & OHC](#iap-ocean-temp-&-ohc)                                                                                     |
 ### IOTA/QuOTA
 |                             |                                                                                       |
 |:----------------------------|:--------------------------------------------------------------------------------------|
@@ -968,6 +1014,7 @@
 | **URL 1**                   | https://data.gov.au/dataset/ds-marlin-edb476bb-54fb-429a-aec5-eb97f7d5535a/details?q= |
 | **URL 2**                   | nan                                                                                   |
 | **User / point of contact** | nan                                                                                   |
+| **Download script**         | [IOTA/QuOTA](#iota/quota)                                                             |
 ### ARGO
 |                             |                                              |
 |:----------------------------|:---------------------------------------------|
@@ -986,6 +1033,7 @@
 | **URL 1**                   | http://www.argo.ucsd.edu/Gridded_fields.html |
 | **URL 2**                   | http://sio-argo.ucsd.edu/RG_Climatology.html |
 | **User / point of contact** | nan                                          |
+| **Download script**         | [ARGO](#argo)                                |
 ### ITF from IX1
 |                             |                                              |
 |:----------------------------|:---------------------------------------------|
@@ -1004,6 +1052,7 @@
 | **URL 1**                   | nan                                          |
 | **URL 2**                   | nan                                          |
 | **User / point of contact** | nan                                          |
+| **Download script**         | [ITF from IX1](#itf-from-ix1)                |
 ### ITF Makassar
 |                             |                                                                          |
 |:----------------------------|:-------------------------------------------------------------------------|
@@ -1022,6 +1071,7 @@
 | **URL 1**                   | nan                                                                      |
 | **URL 2**                   | nan                                                                      |
 | **User / point of contact** | nan                                                                      |
+| **Download script**         | [ITF Makassar](#itf-makassar)                                            |
 ### Levitus
 |                             |                                                                                                                   |
 |:----------------------------|:------------------------------------------------------------------------------------------------------------------|
@@ -1040,6 +1090,7 @@
 | **URL 1**                   | https://www.nodc.noaa.gov/OC5/3M_HEAT_CONTENT/                                                                    |
 | **URL 2**                   | nan                                                                                                               |
 | **User / point of contact** | nan                                                                                                               |
+| **Download script**         | [Levitus](#levitus)                                                                                               |
 ### Ishii Product
 |                             |                                                                           |
 |:----------------------------|:--------------------------------------------------------------------------|
@@ -1058,6 +1109,7 @@
 | **URL 1**                   | https://rda.ucar.edu/datasets/ds285.3/                                    |
 | **URL 2**                   | nan                                                                       |
 | **User / point of contact** | nan                                                                       |
+| **Download script**         | [Ishii Product](#ishii-product)                                           |
 ### PDO
 |                             |                 |
 |:----------------------------|:----------------|
@@ -1076,6 +1128,7 @@
 | **URL 1**                   | nan             |
 | **URL 2**                   | nan             |
 | **User / point of contact** | nan             |
+| **Download script**         | [PDO](#pdo)     |
 ### IPO
 |                             |                 |
 |:----------------------------|:----------------|
@@ -1094,24 +1147,26 @@
 | **URL 1**                   | nan             |
 | **URL 2**                   | nan             |
 | **User / point of contact** | nan             |
+| **Download script**         | [IPO](#ipo)     |
 ### Nino3.4
-|                             |                 |
-|:----------------------------|:----------------|
-| **Category**                | Climate Indices |
-| **Product and version**     | Nino3.4         |
-| **Institution**             | nan             |
-| **Product Type**            | nan             |
-| **Spatial Resolution**      | nan             |
-| **Period Available**        | nan             |
-| **Temporal Resolution**     | nan             |
-| **Variables**               | nan             |
-| **Reference**               | nan             |
-| **On CLIDEX?**              | nan             |
-| **Data Storage Location**   | nan             |
-| **Downloaded Variables**    | nan             |
-| **URL 1**                   | nan             |
-| **URL 2**                   | nan             |
-| **User / point of contact** | nan             |
+|                             |                     |
+|:----------------------------|:--------------------|
+| **Category**                | Climate Indices     |
+| **Product and version**     | Nino3.4             |
+| **Institution**             | nan                 |
+| **Product Type**            | nan                 |
+| **Spatial Resolution**      | nan                 |
+| **Period Available**        | nan                 |
+| **Temporal Resolution**     | nan                 |
+| **Variables**               | nan                 |
+| **Reference**               | nan                 |
+| **On CLIDEX?**              | nan                 |
+| **Data Storage Location**   | nan                 |
+| **Downloaded Variables**    | nan                 |
+| **URL 1**                   | nan                 |
+| **URL 2**                   | nan                 |
+| **User / point of contact** | nan                 |
+| **Download script**         | [Nino3.4](#nino3.4) |
 ### ONI
 |                             |                 |
 |:----------------------------|:----------------|
@@ -1130,6 +1185,7 @@
 | **URL 1**                   | nan             |
 | **URL 2**                   | nan             |
 | **User / point of contact** | nan             |
+| **Download script**         | [ONI](#oni)     |
 ### SAM
 |                             |                 |
 |:----------------------------|:----------------|
@@ -1148,6 +1204,7 @@
 | **URL 1**                   | nan             |
 | **URL 2**                   | nan             |
 | **User / point of contact** | nan             |
+| **Download script**         | [SAM](#sam)     |
 ### SOI
 |                             |                 |
 |:----------------------------|:----------------|
@@ -1166,6 +1223,7 @@
 | **URL 1**                   | nan             |
 | **URL 2**                   | nan             |
 | **User / point of contact** | nan             |
+| **Download script**         | [SOI](#soi)     |
 ### DMI
 |                             |                 |
 |:----------------------------|:----------------|
@@ -1184,6 +1242,7 @@
 | **URL 1**                   | nan             |
 | **URL 2**                   | nan             |
 | **User / point of contact** | nan             |
+| **Download script**         | [DMI](#dmi)     |
 ### NAO
 |                             |                 |
 |:----------------------------|:----------------|
@@ -1202,21 +1261,23 @@
 | **URL 1**                   | nan             |
 | **URL 2**                   | nan             |
 | **User / point of contact** | nan             |
+| **Download script**         | [NAO](#nao)     |
 ### monsoon indices
-|                             |                 |
-|:----------------------------|:----------------|
-| **Category**                | Climate Indices |
-| **Product and version**     | monsoon indices |
-| **Institution**             | nan             |
-| **Product Type**            | nan             |
-| **Spatial Resolution**      | nan             |
-| **Period Available**        | nan             |
-| **Temporal Resolution**     | nan             |
-| **Variables**               | nan             |
-| **Reference**               | nan             |
-| **On CLIDEX?**              | nan             |
-| **Data Storage Location**   | nan             |
-| **Downloaded Variables**    | nan             |
-| **URL 1**                   | nan             |
-| **URL 2**                   | nan             |
-| **User / point of contact** | nan             |
+|                             |                                     |
+|:----------------------------|:------------------------------------|
+| **Category**                | Climate Indices                     |
+| **Product and version**     | monsoon indices                     |
+| **Institution**             | nan                                 |
+| **Product Type**            | nan                                 |
+| **Spatial Resolution**      | nan                                 |
+| **Period Available**        | nan                                 |
+| **Temporal Resolution**     | nan                                 |
+| **Variables**               | nan                                 |
+| **Reference**               | nan                                 |
+| **On CLIDEX?**              | nan                                 |
+| **Data Storage Location**   | nan                                 |
+| **Downloaded Variables**    | nan                                 |
+| **URL 1**                   | nan                                 |
+| **URL 2**                   | nan                                 |
+| **User / point of contact** | nan                                 |
+| **Download script**         | [monsoon indices](#monsoon-indices) |
