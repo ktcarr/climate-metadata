@@ -1,4 +1,7 @@
-"""Script renders README file based on ../metadata/DataList.xlsx"""
+"""
+Script renders README file based on ./metadata/DataList.xlsx.
+NOTE: script must be run from home directory (i.e., `python scripts/render_readme.py')
+"""
 
 import pandas as pd
 import copy
@@ -34,6 +37,16 @@ def make_anchorlink(name):
     
     return f"[{name}](#{link_name})"
 
+def make_hyperlink_to_scripts(name):
+    """Make hyper link for specified string
+    to corresponding folder in 'scripts' directory"""
+
+    ## make lowercase
+    link_name = "-".join(name.lower().split())
+    
+    return f"[scripts/{link_name}](scripts/{link_name})"
+
+
 def print_category_table(data, category, cols_to_plot, file=None):
     """ Print comparison table for products in specific category. 
     'data' is a Pandas Dataframe.
@@ -66,8 +79,8 @@ def print_item_metadata(item, file=None):
     item_["Variables"] = csv_list_to_html(item_["Variables"])
 
     ## Add item with hyperlink to scripts
-    path = f"scripts/{item_['Product and version']}" 
-    item_["Download script"] = make_anchorlink(path)
+    name = item_['Product and version']
+    item_["Download script"] = make_hyperlink_to_scripts(name)
 
     ## Remove row name
     item_ = item_.rename("")
@@ -84,7 +97,7 @@ def main():
     """Main file: load data and print out metadata"""
     
     ## Load data
-    data = pd.read_excel("../metadata/DataList.xlsx")
+    data = pd.read_excel("./metadata/DataList.xlsx")
     
     ## unique categories (make new table for each one)
     cats = pd.unique(data["Category"])
@@ -92,14 +105,21 @@ def main():
     ## specify which columns to plot
     cols_to_plot = ["Product and version", "Spatial Resolution", "Temporal Resolution", "Period Available"]
 
-    with open("../README.md", "w") as f:
-    
+    with open("README.md", "w") as f:
+
+        ### introductory text
+        intro_text = f"This repository contains metadata and download scripts for ocean/atmosphere reanalyses and observations.\n\n  The following markdown file contains several ['summary' tables](#summary-tables) for comparison of basic information between datasets. These tables contain links to [more detailed information](#detailed-metadata) for each dataset. Download scripts for specific datasets are located in the [scripts](./scripts) folder."
+
+        print(intro_text, file=f)
+	    
         ### High-level comparison for categories
+        print(f"\n\n# Summary tables\n", file=f)	
         for cat in cats:
             print_category_table(data, cat, cols_to_plot, file=f)
             print(f"\n\n", file=f)
         
         ### Detailed overview for each product
+        print(f"# Detailed metadata\n", file=f)
         for i, item in data.iterrows():
             print_item_metadata(item, file=f)
     return
