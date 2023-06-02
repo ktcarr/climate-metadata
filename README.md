@@ -42,7 +42,7 @@ This repository contains metadata and download scripts for ocean/atmosphere rean
 | [CMAP](#cmap)                 | 2.5º x 2.5º                | mothly                    | 1979-present       |
 | [CMORPH](#cmorph)             | 0.25º x 0.25º              | Sub-daily, daily          | 2002-2017          |
 | [CloudSat](#cloudsat)         | 2º x 2º                    | Monthly                   | 2006-2010          |
-| [GPCP v2.3](#gpcp-v2.3)       | 2.5º x 2.5º                | Monthly                   | 1979-present       |
+| [GPCP v2.3](#gpcp-v23)        | 2.5º x 2.5º                | Monthly                   | 1979-present       |
 | [GPM IMERG](#gpm-imerg)       | 0.1º x 0.1º                | sub-daily, daily, monthly | 2000-present       |
 | [PERSIANN-CDR](#persiann-cdr) | 0.25º x 0.25º              | Sub-daily, daily          | 1983-2020          |
 | [TRMM/GPM](#trmm/gpm)         | 0.25º x 0.25º              | Sub-daily, daily, monthly | 1998-2019          |
@@ -79,15 +79,15 @@ This repository contains metadata and download scripts for ocean/atmosphere rean
 
 ## SST
 
-| Product and version           | Spatial Resolution   | Temporal Resolution   | Period Available   |
-|:------------------------------|:---------------------|:----------------------|:-------------------|
-| [ERSSTv4](#ersstv4)           | 2º x 2º              | Monthly               | 1854-present       |
-| [ERSSTv5](#ersstv5)           | 2º x 2º              | Monthly               | 1854-present       |
-| [GISTEMP](#gistemp)           | 2º x 2º              | Monthly               | 1880-2018          |
-| [HadISST v1.1](#hadisst-v1.1) | 1º x 1º              | Monthly               | 1870-present       |
-| [MODIS/Aqua](#modis/aqua)     | 4km                  | daily                 | 2002-2016          |
-| [OISST v2](#oisst-v2)         | 0.25º x 0.25º        | daily, monthly        | 1981-present       |
-| [OSTIA SST](#ostia-sst)       | 0.05º x 0.05º        | daily                 | 1992-present       |
+| Product and version          | Spatial Resolution   | Temporal Resolution   | Period Available   |
+|:-----------------------------|:---------------------|:----------------------|:-------------------|
+| [ERSSTv4](#ersstv4)          | 2º x 2º              | Monthly               | 1854-present       |
+| [ERSSTv5](#ersstv5)          | 2º x 2º              | Monthly               | 1854-present       |
+| [GISTEMP](#gistemp)          | 2º x 2º              | Monthly               | 1880-2018          |
+| [HadISST v1.1](#hadisst-v11) | 1º x 1º              | Monthly               | 1870-present       |
+| [MODIS/Aqua](#modis/aqua)    | 4km                  | daily                 | 2002-2016          |
+| [OISST v2](#oisst-v2)        | 0.25º x 0.25º        | daily, monthly        | 1981-present       |
+| [OSTIA SST](#ostia-sst)      | 0.05º x 0.05º        | daily                 | 1992-present       |
 
 
 
@@ -97,8 +97,8 @@ This repository contains metadata and download scripts for ocean/atmosphere rean
 |:----------------------------------------------|:---------------------|:----------------------|:---------------------|
 | [ARGO](#argo)                                 | 1º x 1º              | weekly, monthly       | 2000-present         |
 | [ECCO2](#ecco2)                               | 0.25º x 0.25º        | Monthly               | 1992-2013            |
-| [EN4.1.1](#en4.1.1)                           | 1º x 1º              | Monthly               | 1900-present         |
-| [GFDL-ECDA v3.1](#gfdl-ecda-v3.1)             | 0.33º x 1º           | Monthly               | 1961-2012            |
+| [EN4.1.1](#en411)                             | 1º x 1º              | Monthly               | 1900-present         |
+| [GFDL-ECDA v3.1](#gfdl-ecda-v31)              | 0.33º x 1º           | Monthly               | 1961-2012            |
 | [GLORYS2v1](#glorys2v1)                       | 0.25º x 0.25º        | sub-daily             | 1993-2017            |
 | [GODAS](#godas)                               | 1º x 1º              | Monthly               | 1980-present         |
 | [IAP ocean temp & OHC](#iap-ocean-temp-&-ohc) | 1º x 1º              | Monthly               | 1940-2016            |
@@ -109,7 +109,7 @@ This repository contains metadata and download scripts for ocean/atmosphere rean
 | [Levitus](#levitus)                           | variable             | variable              | 1955-2010            |
 | [ORAS4](#oras4)                               | 1º x 1º              | Monthly               | 1958-2017            |
 | [ORAS5](#oras5)                               | 1º x 1º              | Monthly               | 1979-2018            |
-| [SODA 2.2.4](#soda-2.2.4)                     | 0.25º x 0.4º         | Monthly               | 1871-2008            |
+| [SODA 2.2.4](#soda-224)                       | 0.25º x 0.4º         | Monthly               | 1871-2008            |
 
 
 
@@ -120,7 +120,7 @@ This repository contains metadata and download scripts for ocean/atmosphere rean
 | [DMI](#dmi)                         |                  nan |                   nan |                nan |
 | [IPO](#ipo)                         |                  nan |                   nan |                nan |
 | [NAO](#nao)                         |                  nan |                   nan |                nan |
-| [Nino3.4](#nino3.4)                 |                  nan |                   nan |                nan |
+| [Nino3.4](#nino34)                  |                  nan |                   nan |                nan |
 | [ONI](#oni)                         |                  nan |                   nan |                nan |
 | [PDO](#pdo)                         |                  nan |                   nan |                nan |
 | [SAM](#sam)                         |                  nan |                   nan |                nan |
@@ -434,7 +434,7 @@ This repository contains metadata and download scripts for ocean/atmosphere rean
 | **URL 1**                   | https://www.esrl.noaa.gov/psd/data/gridded/data.gpcp.html |
 | **URL 2**                   | nan                                                       |
 | **User / point of contact** | nan                                                       |
-| **Download script**         | [scripts/gpcp-v2.3](scripts/gpcp-v2.3)                    |
+| **Download script**         | [scripts/gpcp-v23](scripts/gpcp-v23)                      |
 ### TRMM/GPM
 |                             |                                                 |
 |:----------------------------|:------------------------------------------------|
@@ -833,7 +833,7 @@ This repository contains metadata and download scripts for ocean/atmosphere rean
 | **URL 1**                   | https://www.metoffice.gov.uk/hadobs/hadisst/ |
 | **URL 2**                   | nan                                          |
 | **User / point of contact** | Mariya                                       |
-| **Download script**         | [scripts/hadisst-v1.1](scripts/hadisst-v1.1) |
+| **Download script**         | [scripts/hadisst-v11](scripts/hadisst-v11)   |
 ### ORAS4
 |                             |                                                                                                                      |
 |:----------------------------|:---------------------------------------------------------------------------------------------------------------------|
@@ -890,7 +890,7 @@ This repository contains metadata and download scripts for ocean/atmosphere rean
 | **URL 1**                   | https://coastwatch.pfeg.noaa.gov/erddap/info/hawaii_d90f_20ee_c4cb/index.html             |
 | **URL 2**                   | nan                                                                                       |
 | **User / point of contact** | nan                                                                                       |
-| **Download script**         | [scripts/soda-2.2.4](scripts/soda-2.2.4)                                                  |
+| **Download script**         | [scripts/soda-224](scripts/soda-224)                                                      |
 ### GFDL-ECDA v3.1
 |                             |                                                                                                                                                                                                                         |
 |:----------------------------|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -909,7 +909,7 @@ This repository contains metadata and download scripts for ocean/atmosphere rean
 | **URL 1**                   | http://apdrc.soest.hawaii.edu/datadoc/gfdl.php                                                                                                                                                                          |
 | **URL 2**                   | nan                                                                                                                                                                                                                     |
 | **User / point of contact** | nan                                                                                                                                                                                                                     |
-| **Download script**         | [scripts/gfdl-ecda-v3.1](scripts/gfdl-ecda-v3.1)                                                                                                                                                                        |
+| **Download script**         | [scripts/gfdl-ecda-v31](scripts/gfdl-ecda-v31)                                                                                                                                                                          |
 ### GODAS
 |                             |                                                                                                                                     |
 |:----------------------------|:------------------------------------------------------------------------------------------------------------------------------------|
@@ -985,7 +985,7 @@ This repository contains metadata and download scripts for ocean/atmosphere rean
 | **URL 1**                   | https://www.metoffice.gov.uk/hadobs/en4/ |
 | **URL 2**                   | nan                                      |
 | **User / point of contact** | nan                                      |
-| **Download script**         | [scripts/en4.1.1](scripts/en4.1.1)       |
+| **Download script**         | [scripts/en411](scripts/en411)           |
 ### IAP ocean temp & OHC
 |                             |                                                                                                                                   |
 |:----------------------------|:----------------------------------------------------------------------------------------------------------------------------------|
@@ -1158,24 +1158,24 @@ This repository contains metadata and download scripts for ocean/atmosphere rean
 | **User / point of contact** | nan                        |
 | **Download script**         | [scripts/ipo](scripts/ipo) |
 ### Nino3.4
-|                             |                                    |
-|:----------------------------|:-----------------------------------|
-| **Category**                | Climate Indices                    |
-| **Product and version**     | Nino3.4                            |
-| **Institution**             | nan                                |
-| **Product Type**            | nan                                |
-| **Spatial Resolution**      | nan                                |
-| **Period Available**        | nan                                |
-| **Temporal Resolution**     | nan                                |
-| **Variables**               | nan                                |
-| **Reference**               | nan                                |
-| **On CLIDEX?**              | nan                                |
-| **Data Storage Location**   | nan                                |
-| **Downloaded Variables**    | nan                                |
-| **URL 1**                   | nan                                |
-| **URL 2**                   | nan                                |
-| **User / point of contact** | nan                                |
-| **Download script**         | [scripts/nino3.4](scripts/nino3.4) |
+|                             |                                  |
+|:----------------------------|:---------------------------------|
+| **Category**                | Climate Indices                  |
+| **Product and version**     | Nino3.4                          |
+| **Institution**             | nan                              |
+| **Product Type**            | nan                              |
+| **Spatial Resolution**      | nan                              |
+| **Period Available**        | nan                              |
+| **Temporal Resolution**     | nan                              |
+| **Variables**               | nan                              |
+| **Reference**               | nan                              |
+| **On CLIDEX?**              | nan                              |
+| **Data Storage Location**   | nan                              |
+| **Downloaded Variables**    | nan                              |
+| **URL 1**                   | nan                              |
+| **URL 2**                   | nan                              |
+| **User / point of contact** | nan                              |
+| **Download script**         | [scripts/nino34](scripts/nino34) |
 ### ONI
 |                             |                            |
 |:----------------------------|:---------------------------|

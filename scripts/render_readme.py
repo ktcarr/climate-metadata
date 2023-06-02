@@ -1,6 +1,8 @@
 """
 Script renders README file based on ./metadata/DataList.xlsx.
-NOTE: script must be run from home directory (i.e., `python scripts/render_readme.py')
+NOTE: script must be run from home directory (i.e., `python scripts/render_readme.py').
+TO-DO:
+    - fix handling of punctuation marks in anchor links (specifically periods).
 """
 
 import pandas as pd
@@ -29,11 +31,29 @@ def csv_list_to_html(csv):
     
         return prefix + middle + suffix
 
+def name_to_markdown(name):
+    """
+    Convert string to markdown (make it possible
+    to use hyperlinks/anchorlinks). The rules are:
+        - punctuation marks will be dropped
+        - leading white spaces will be dropped
+        - upper case will be converted to lower
+        - spaces between letters will be converted to -
+    """ 
+
+    ## remove periods
+    name = name.translate(str.maketrans('', '', '.'))
+
+    ## make lower-case, and replace spaces with '-'
+    name = "-".join(name.lower().split())
+
+    return name
+
 def make_anchorlink(name):
     """Make anchor link for specified string"""
 
     ## make lowercase
-    link_name = "-".join(name.lower().split())
+    link_name = name_to_markdown(name)
     
     return f"[{name}](#{link_name})"
 
@@ -42,7 +62,7 @@ def make_hyperlink_to_scripts(name):
     to corresponding folder in 'scripts' directory"""
 
     ## make lowercase
-    link_name = "-".join(name.lower().split())
+    link_name = name_to_markdown(name) 
     
     return f"[scripts/{link_name}](scripts/{link_name})"
 
